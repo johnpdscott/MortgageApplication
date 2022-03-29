@@ -131,6 +131,7 @@
            .
       *     DISPLAY 'RETURN PAYMENT = ' EPSPDATA-RETURN-MONTH-PAYMENT.
       *     COMPUTE C = WS-CALC-INTEREST.
+      *     BLAH BLAH BLAH
       *     COMPUTE N = WS-NUMBER-OF-MONTHS.
       *     COMPUTE L = EPSPDATA-PRINCIPLE-DATA.
       *     COMPUTE P = L * (C * (1 + C ) ** N)/(((1 + C) ** N) - 1).
